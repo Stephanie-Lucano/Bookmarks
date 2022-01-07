@@ -9,6 +9,8 @@ app.get("/", (req, res) => {
     res.send("Welcome to Bookmarks App");
 });
 
-app.get("*", (request, response) => {})
+app.get("*", (request, response) => {
+    response.json({ error: "Page  not found"})
+})
 
 module.exports = app;
