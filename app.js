@@ -5,7 +5,7 @@ const app = express();
 
 app.use("/bookmarks", bookmarksController)
 
-app.get("/", (req, res) => {
+app.get("/", (request, res) => {
     res.send("Welcome to Bookmarks App");
 });
 
