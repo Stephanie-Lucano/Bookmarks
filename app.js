@@ -9,4 +9,6 @@ app.get("/", (req, res) => {
     res.send("Welcome to Bookmarks App");
 });
 
+app.get("*", (request, response) => {})
+
 module.exports = app;
