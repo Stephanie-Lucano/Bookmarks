@@ -1,3 +1,4 @@
+const bookmarksController = require("./controllers/bookmarksController")
 const express = require("express");
 
 const app = express();
