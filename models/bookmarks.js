@@ -17,4 +17,4 @@ module.exports = [
         isFavorite: false,
         category: "adulting",
     },
-  ];
+];
