@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("*", (request, response) => {
-    response.json({ error: "Page  not found"})
+    response.status(404).json({ error: "Page  not found"})
 })
 
 module.exports = app;
