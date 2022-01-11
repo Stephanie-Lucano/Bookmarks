@@ -8,6 +8,6 @@ bookmarks.get("/", (request, response) => {
     response.json(bookmarksArray)
 })
 
-bookmarks.get("/index:", (request, response) => {})
+bookmarks.get("/:index", (request, response) => {})
 
 module.exports = bookmarks;
