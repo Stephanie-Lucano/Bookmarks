@@ -19,4 +19,6 @@ bookmarks.get("/:index", (request, response) => {
     : response.status(404).json({ error: "Error bookmark not found"})
 })
 
+bookmarks.post("/", (request, response) => {})
+
 module.exports = bookmarks;
